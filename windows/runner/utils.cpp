@@ -1,3 +1,4 @@
+git push -u origin main
 #include "utils.h"
 
 #include <flutter_windows.h>

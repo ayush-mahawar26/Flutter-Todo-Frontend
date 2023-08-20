@@ -1,5 +1,5 @@
 class GlobalVars {
-  static String baseUrl = "http://192.168.1.11:8080";
+  static String baseUrl = "https://todo-backend-8xgu.onrender.com";
 
   static final headers = {
     "Content-type": "application/json",
