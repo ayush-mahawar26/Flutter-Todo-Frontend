@@ -8,6 +8,7 @@ class TaskService {
   getAllTask() async {
     print(AuthCubit.user.uid);
     String link = "$baseUrl/gettask/${AuthCubit.user.uid}";
+    print(link);
     Uri url = Uri.parse(link);
     print(link);
 

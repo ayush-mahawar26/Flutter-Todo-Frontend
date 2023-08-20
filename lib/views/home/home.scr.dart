@@ -48,6 +48,7 @@ class _HomeScrState extends State<HomeScr> {
               onTap: () async {
                 CustomWidget().snackbar("Signing Out", context);
                 await JwtServices().deleteKey("token");
+                TaskCubit.tasklst.clear();
                 Navigator.of(context).pushAndRemoveUntil(
                     MaterialPageRoute(builder: (context) => SigninAuthScreen()),
                     (route) => false);
