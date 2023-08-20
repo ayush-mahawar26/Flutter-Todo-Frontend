@@ -1,16 +1,29 @@
-# todo_frontend
 
-A new Flutter project.
+# Todo-Frontend
 
-## Getting Started
+Todo Application , whose frontend is made up using flutter sdk with the custom backend using nodejs, express and MongoDB.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Fork this repo , in your local 
+
+```bash
+cd - project
+flutter pub get
+```
+
+
+    
+## Tech Stack
+
+**Client:** Flutter , Dart
+
+**Server:** Node, Express
+
+**Database:** MongoDB
+
+**Hosting Platform:** render.com
+
+
